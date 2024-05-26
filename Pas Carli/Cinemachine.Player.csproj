@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A8155880-545A-CC0D-AB97-C2ABA889E9E9}</ProjectGuid>
+    <ProjectGuid>{32455D95-B884-CFA7-3C2B-9CD39330B239}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Cinemachine</AssemblyName>
@@ -871,11 +871,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{1E57F2B8-531D-F166-C975-DE63D3C44F55}</Project>
+      <Project>{F3F7E6FB-CDA5-02E5-C101-BDEFDD2B1208}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{8598C98F-4FF1-8394-DDE7-B4AA5B194210}</Project>
+      <Project>{BC0C5A14-19C3-00A4-91B1-D4BF6F9C9ECA}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

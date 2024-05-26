@@ -17,6 +17,8 @@ public class Obstacle : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("MRtav si");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
+        player.GetComponent<Player>().Dead();
     }
 }

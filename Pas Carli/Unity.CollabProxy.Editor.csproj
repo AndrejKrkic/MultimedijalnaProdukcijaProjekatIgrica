@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0ECFD7A1-93FC-BB0E-57CE-583F607A3E80}</ProjectGuid>
+    <ProjectGuid>{008031E3-A3A1-D35F-F42B-0B1B4CECA272}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
@@ -1017,27 +1017,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{91F48309-E6EA-45DA-4E1D-169D8ED32A34}</Project>
+      <Project>{050C9867-589C-B8A5-D00B-74A0B53E16B5}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{2A9F5F03-CA8C-9909-5E61-DFA03358BDDE}</Project>
+      <Project>{6D909C6F-CECA-BD81-98A5-33EB962B3DE1}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{EE5EE866-0D09-7E65-3E7D-DD769AEBCDDE}</Project>
+      <Project>{63087AFC-9A19-4961-A0E6-858B04C1FD0E}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{420367D8-DAFD-CCAB-2B25-431A2C3DAA15}</Project>
+      <Project>{EB0CFB28-078B-B7D7-1311-F98F97ADD4B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{55E43548-813E-470E-D7E5-4A45CFA894D1}</Project>
+      <Project>{479F829B-0137-7818-B748-9314BFFA6EA0}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{9825F124-C2BE-AC9D-75B1-400FF19CCA41}</Project>
+      <Project>{7209161A-C6DF-9254-EAEE-5C043256FB77}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public Vector3 FallingDown;
     private bool stop = false;
     public Animator animator;
+    public GameObject endScreen;
 
     void Start()
     {
@@ -83,5 +84,11 @@ public class Player : MonoBehaviour
     bool IsGrounded()
     {
         return Physics.Raycast(jumpPos.position, Vector3.down, distance);
+    }
+
+    public void Dead()
+    {
+        endScreen.SetActive(true);
+        Destroy(this.gameObject);
     }
 }
